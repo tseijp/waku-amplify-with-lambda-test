@@ -1,7 +1,7 @@
 import { defineBackend } from "@aws-amplify/backend";
 import * as ec2 from "aws-cdk-lib/aws-ec2";
-import { VpcLambdaStack } from "./custom/VPCLambda/resource";
 import { auth } from "./auth/resource";
+import { VpcLambdaStack } from "./custom";
 // import { data } from './data/resource';
 
 /**
