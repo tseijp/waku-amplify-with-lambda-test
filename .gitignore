@@ -5,3 +5,8 @@ dist
 .cache
 .DS_Store
 *.pem
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*
