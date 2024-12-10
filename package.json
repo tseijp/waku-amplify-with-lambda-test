@@ -9,6 +9,7 @@
     "start": "waku start"
   },
   "dependencies": {
+    "@aws-sdk/client-lambda": "^3.699.0",
     "react": "19.0.0-rc-7670501b-20241124",
     "react-dom": "19.0.0-rc-7670501b-20241124",
     "react-server-dom-webpack": "19.0.0-rc-7670501b-20241124",
