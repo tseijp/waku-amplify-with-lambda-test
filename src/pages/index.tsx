@@ -2,7 +2,7 @@ import { Link } from 'waku';
 
 import { Counter } from '../components/counter';
 
-const { Lambda } = require("@aws-sdk/client-lambda");
+import { Lambda } from "@aws-sdk/client-lambda";
 
 const lambda = new Lambda({
   region: process.env.VPC_LAMBDA_AWS_REGION!,
